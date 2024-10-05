@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- AOS lib  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font awesome CDN  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Stylesheet File  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  <title>Specification | RollsRoyce</title>
+</head>
+
+<body>
+  <!-- Navigation  -->
+  <div class="container">
+    <nav>
+      <div class="col1">
+        <img src="images/logo.png" alt="" height="100%">RollsRoyce
+      </div>
+      <div class="col2">
+        <a href="index.html">Home</a>
+        <a href="index.html">Collections</a>
+        <a href="index.html">Testimonials</a>
+        <a href="about.html">About Us</a>
+      </div>
+      <div class="col3">
+        <button class="btn" id="openModal">Contact Now</button>
+        <!-- Modal  -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Contact Us</h2>
+            <form>
+              <input type="text" placeholder="Name" required>
+              <input type="tel" placeholder="Mobile Number" required>
+              <input type="email" placeholder="Email" required>
+              <textarea placeholder="Query" rows="4" required></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="spec">
+      <div class="col-1">
+        <div class="d-img">
+            <img id="img" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Rolls-Royce/Spectre/11100/1705661590820/front-left-side-47.jpg?imwidth=890&impolicy=resize" alt="">
+        </div>
+        <div class="change-img">
+            <img onclick="changeImage(this)" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Rolls-Royce/Spectre/11100/1705661590820/front-left-side-47.jpg?imwidth=890&impolicy=resize" alt="">
+            <img onclick="changeImage(this)" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Rolls-Royce/Spectre/11100/1705661590820/rear-left-view-121.jpg?imwidth=890&impolicy=resize" alt="">
+            <img onclick="changeImage(this)" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Rolls-Royce/Spectre/11100/1705661590820/front-view-118.jpg?imwidth=890&impolicy=resize" alt="">
+            <img onclick="changeImage(this)" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Rolls-Royce/Spectre/11100/1705661590820/rear-view-119.jpg?imwidth=890&impolicy=resize" alt="">
+            <img onclick="changeImage(this)" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Rolls-Royce/Spectre/11100/1705661590820/grille-97.jpg?imwidth=890&impolicy=resize" alt="">
+        </div>
+    </div>  
+        <div class="col-2">
+         <div class="name">
+          <h2>Rolls-Royce Spectre</h2>
+           <h3>Price Rs.8.99 - 10.48 Cr*</h3>
+         </div>
+          <p>The Rolls-Royce Spectre is the luxury automaker's first fully electric vehicle, marking a significant milestone in its storied history. Unveiled in 2022, the Spectre seamlessly blends the brand's legendary craftsmanship with cutting-edge electric performance.
+
+            Its design features a sleek and aerodynamic silhouette, characterized by flowing lines and a distinctive front grille that pays homage to classic Rolls-Royce elements, including the iconic Spirit of Ecstasy hood ornament. This modern aesthetic is complemented by an opulent interior, showcasing handcrafted leather, exquisite wood veneers, and state-of-the-art technology. The cabin creates a serene atmosphere with ambient lighting and customizable options that enhance the luxurious experience. As part of Rolls-Royce's commitment to sustainability, the Spectre exemplifies efforts to create an environmentally friendly luxury vehicle without compromising on performance or comfort. Positioned as a highly exclusive model, it reflects the brand's dedication to bespoke craftsmanship and personal expression, allowing each vehicle to be tailored to the individual preferences of its owner.</p>
+            <a class="btn" href="https://www.rolls-roycemotorcars.com/en_US/dealers.html" target="_blanks">Find Dealer</a>
+           </div>
+    </div>
+
+    <!--Car Specification  -->
+     <div class="car-spec">
+      <h1>Car Specification</h1>
+      <hr>
+      <div class="model">
+        <div class="item1"><strong>Model: </strong></div>
+        <div class="item1"><strong>Body Style: </strong></div>
+        <div class="item1"><strong>Seating Capacity: </strong></div>
+      </div>
+      <hr>
+      <h3>Dimensions</h3>
+      <div class="model">
+        <div class="item1"><strong>Length (mm): </strong></div>
+        <div class="item1"><strong>Width (mm): </strong></div>
+        <div class="item1"><strong>Height (mm): </strong></div>
+        <div class="item1"><strong>Wheelbase (mm): </strong></div>
+        <div class="item1"><strong>Curb Weight (kg): </strong></div>
+      </div>
+      <hr>
+      <h3>Performance</h3>
+      <div class="model">
+        <div class="item1"><strong>Engine: </strong></div>
+        <div class="item1"><strong>Power Output (hp): </strong></div>
+        <div class="item1"><strong>Torque (Nm): </strong></div>
+        <div class="item1"><strong>Transmission: </strong></div>
+        <div class="item1"><strong>0-100 km/h (0-62 mph) (seconds): </strong></div>
+        <div class="item1"><strong>Top Speed (km/h): </strong></div>
+      </div>
+      <hr>
+      <h3>Other features</h3>
+      <div class="model">
+        <div class="item1"><strong>Combined Fuel Economy (L/100 km): </strong></div>
+        <div class="item1"><strong>Suspension: </strong></div>
+        <div class="item1"><strong>Brakes: </strong></div>
+        <div class="item1"><strong>Wheels: </strong></div>
+      </div>
+     </div>
+    <!-- Newsletter From  -->
+     <div class="newsl">
+      <div class="news-card" data-aos="fade-up">
+        <h2>Subscribe To Our <span>Newsletter</span></h2>
+        <p>Join our community by subscribing to our newsletter! Be the first to receive exclusive updates, special offers, and insights straight to your inbox. Whether you’re looking for the latest news, tips, or inspiration, we’ve got you covered.</p>
+        <div class="email">
+          <form action="">
+          <input type="email" placeholder="Enter Your Email  Address here">
+          <button>Subscribe Now</button>
+        </form>
+        </div>
+      </div>
+     </div>
+    <!-- Footer    -->
+     <footer>
+     </footer>
+     <div class="f-menu">
+      <div class="f-logo">
+        <img src="images/logo.png" alt=""><h2>RollsRoyce</h2>
+      </div>
+      <div class="div1">
+        <a href="index.html">Home</a>
+        <a href="index.html">Collections</a>
+        <a href="index.html">Testimonials</a>
+        <a href="about.html">About Us</a>
+        <a href="AdminPanel.html">Admin</a>
+      </div>
+      <div class="div2">
+       <a href="https://www.facebook.com/rollsroycemotorcars"> <i class="fa-brands fa-facebook"></i></a>
+       <a href="https://twitter.com/rollsroycecars"> <i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com/user/RollsRoyceMotorCars"><i class="fa-brands fa-youtube"></i></a>
+       <a href="https://instagram.com/rollsroycecars/?hl=en"> <i class="fa-brands fa-square-instagram"></i></a>
+     <a href="https://www.linkedin.com/company/rolls-royce-motor-cars"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+     </div>
+     <div class="b-footer">
+      <a href="">Privacy Policy</a>
+      <a href="">Copyright&#169; 2024, All rights reserved by Access Authority | Developed & Designed By Suresh Kumar</a>
+      <a href="">Terms Of Services</a>
+     </div>
+  </div>
+
+  <!-- GSAP CDN  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
